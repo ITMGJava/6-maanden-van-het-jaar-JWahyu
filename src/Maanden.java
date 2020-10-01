@@ -11,9 +11,9 @@ public class Maanden {
 
         // Do-While initiatie.
         int month;
+        System.out.printf("%nVoer maar een getal in tussen 1 en 12 en vervolgens vertel ik je welke maand erbij hoort:%n");
         do {
             // Invoer maand.
-            System.out.printf("%nVoer maar een getal in tussen 1 en 12 en vervolgens vertel ik je welke maand erbij hoort:%n");
             month = input.nextInt();
 
             // Selectie maand d.m.v. switch.
@@ -55,7 +55,7 @@ public class Maanden {
                     System.out.printf("Maand 12: Sinterklaas, kerst en het einde van het jaar in december!%n");
                     break;
                 default:
-                    System.out.printf("Incorrecte invoer. Vul a.u.b. een getal tussen 1 en 12.%n");
+                    System.out.printf("Incorrecte invoer. Vul a.u.b. een getal tussen 1 en 12:%n");
             }
         } while (!(month >= 1 && month <= 12));
 // Einde opdracht.
