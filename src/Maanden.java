@@ -52,7 +52,7 @@ public class Maanden {
                     System.out.printf("Maand 11: Misschien valt er wel sneeuw in november.%n");
                     break;
                 case 12:
-                    System.out.printf("Maand 12:Sinterklaas, kerst en het einde van het jaar in december!%n");
+                    System.out.printf("Maand 12: Sinterklaas, kerst en het einde van het jaar in december!%n");
                     break;
                 default:
                     System.out.printf("Incorrecte invoer. Vul a.u.b. een getal tussen 1 en 12.%n");
